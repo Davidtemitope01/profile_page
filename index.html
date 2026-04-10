@@ -1,36 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Profile Page</title>
+    <title>My Updated Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        h1 {
+            margin-top: 10px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 5px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #2a5298;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            background: #1e3c72;
+        }
+    </style>
+
 </head>
 <body>
 
-    <h1>My Profile</h1>
+    <div class="container">
 
-    <img src="fiverr.png" width="150" height="150" alt="Profile Picture">
+        <!-- ✅ YOUR IMAGE HERE -->
+        <img src="fiverr.png" alt="My Profile Picture">
 
-    <h2>Personal Information</h2>
-    <p><strong>Name:</strong>Boluwaji David Temitope</p>
-    <p><strong>Email:</strong> davidbouwaji5@gmail.com</p>
-    <p><strong>Location:</strong> Federal Polytechnic PMB. 5351 Ado-Ekiti Ekiti State, Nigeria</p>
+        <h1>David Temitope</h1>
+        <p>Student | Department of Mechanical engineering</p>
 
-    <h2>About Me</h2>
-    <p>
-        I am a student and aspiring web developer learning HTML, CSS, and JavaScript.<br>
-        I enjoy building websites and solving real-world problems using technology. <br>
-        I'm a student of mechanical Engineering. <br>
-        I'm a in the unit of web application by Dr.Ajewole. <br>
-    </p>
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a student from the Department of Mechanical Engineering with a passion for data analysis 
+                and technology. I am currently learning web development and improving my skills daily.
+            </p>
+        </div>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>Basic CSS</li>
-        <li>JavaScript (Beginner)</li>
-    </ul>
+        <div class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Basic JavaScript</li>
+            </ul>
+        </div>
 
-    <h2>Contact</h2>
-    <p>Phone: +2348141339858</p>
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: davidboluwaji5@gmail.com.com</p>
+            <p>Location: federal polytechnic Ado Ekiti, Nigeria</p>
+            <a href="#" class="btn">Contact Me</a>
+        </div>
+
+    </div>
 
 </body>
 </html>
